@@ -2,6 +2,8 @@
 
 The Angular library we all needed, but don't deserve.
 
+![https://media.giphy.com/media/lgcUUCXgC8mEo/giphy.gif](https://media.giphy.com/media/lgcUUCXgC8mEo/giphy.gif)
+
 ## Features
 
 It's Rick Roll.  What more could you want.
@@ -39,3 +41,4 @@ Viola!  Rick Roll is ready to roll.
 > `showVideo` (optional, default "false"): If true, will show embedded Rick Roll video. Otherwise, will show a link. 
 
 ## Features/Issues
+Request features or report issues [here](https://github.com/cjk101812/ngx-rick-roll/issues).
