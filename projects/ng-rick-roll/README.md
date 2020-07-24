@@ -1,4 +1,4 @@
-# NgxRickRoll
+# ng-rick-roll
 
 The Angular library we all needed, but don't deserve.
 

@@ -12,6 +12,12 @@
     },
     {
       "path": "./tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/ng-rick-roll/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/ng-rick-roll/tsconfig.spec.json"
     }
 ]
 }

@@ -123,6 +123,46 @@
           }
         }
       }
+    },
+    "ng-rick-roll": {
+      "projectType": "library",
+      "root": "projects/ng-rick-roll",
+      "sourceRoot": "projects/ng-rick-roll/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/ng-rick-roll/tsconfig.lib.json",
+            "project": "projects/ng-rick-roll/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ng-rick-roll/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ng-rick-roll/src/test.ts",
+            "tsConfig": "projects/ng-rick-roll/tsconfig.spec.json",
+            "karmaConfig": "projects/ng-rick-roll/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ng-rick-roll/tsconfig.lib.json",
+              "projects/ng-rick-roll/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }},
   "defaultProject": "ngx-rick-roll"
 }
